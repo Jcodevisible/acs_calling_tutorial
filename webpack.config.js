@@ -8,10 +8,10 @@ const jsonParser = bodyParser.json();
 const mysql = require('mysql');
 
 const dbconfig = {
-    host: 'acsuserdb.mysql.database.azure.com',
-    user: 'acscalling@acsuserdb',
-    password: 'Chitahi123',
-    database: 'acsusers'
+    host: '*************',
+    user: '*************',
+    password: '*************',
+    database: '*************'
 };
 
 if(!config || !config.connectionString || config.connectionString.indexOf('endpoint=') === -1)
